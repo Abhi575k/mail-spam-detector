@@ -1,0 +1,9 @@
+{% extends "base.html" %}
+{% block title %} Home {% endblock %}
+{% block content %}
+    <form action="/predict/" method="POST">
+        <textarea class="Text" name="Text" rows="4" cols="50" placeholder="Input Text"></textarea>
+        <input type="submit" name="submit" class="Button">
+    </form>
+    <h2>{{ res }}</h2>
+{% endblock %}

@@ -1,0 +1,13 @@
+   Unnamed: 0  ... label_num
+0         605  ...         0
+1        2349  ...         0
+2        3624  ...         0
+3        4685  ...         1
+4        2030  ...         0
+
+[5 rows x 4 columns]
+
+HAM_WORDS:
+
+Total words 1259289
+Total words 2039929
